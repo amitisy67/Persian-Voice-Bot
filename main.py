@@ -1,4 +1,5 @@
 import asyncio
+import os
 import tempfile
 import traceback
 import wave
@@ -9,7 +10,7 @@ import lameenc
 from piper import PiperVoice
 import emoji
 
-TOKEN = "...."
+TOKEN = os.getenv("BALE_BOT_TOKEN", "....")
 
 client = bale.Bot(TOKEN)
 

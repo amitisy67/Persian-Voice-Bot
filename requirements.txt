@@ -1,0 +1,5 @@
+aiohttp
+python-bale-bot
+piper-tts
+lameenc
+emoji

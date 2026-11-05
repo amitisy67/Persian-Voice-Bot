@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets - never commit these
+.env
+
+# Voice model files (large, download separately)
+*.onnx
+*.onnx.json
+Mana-Persian-Piper/
+
+# Generated audio
+*.wav
+*.mp3
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

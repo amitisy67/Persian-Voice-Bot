@@ -51,6 +51,36 @@ Instead of reading a long paragraph, users can simply listen to it! ✨
 | `/correct` | Start the pronunciation correction process |
 | `/cancel` | Cancel the current operation |
 
+### ⚙️ Run It Yourself
+
+1. Clone the repo and install the dependencies:
+
+```bash
+git clone https://github.com/amitisy67/Persian-Voice-Bot.git
+cd Persian-Voice-Bot
+pip install -r requirements.txt
+```
+
+2. Download the Persian Piper voice model and put it in a folder named `Mana-Persian-Piper` next to `main.py`. You need both files (they are large, so they are not stored in this repo):
+   - `fa_IR-mana-medium.onnx`
+   - `fa_IR-mana-medium.onnx.json`
+
+3. Set your Bale bot token as an environment variable (never write a real token in the code):
+
+```bash
+# Linux / macOS
+export BALE_BOT_TOKEN="your-token-here"
+
+# Windows (PowerShell)
+$env:BALE_BOT_TOKEN="your-token-here"
+```
+
+4. Start the bot:
+
+```bash
+python main.py
+```
+
 ### 🔗 Try It Out!
 
 - 🤖 **Bot:** https://ble.ir/farsireaderbot
